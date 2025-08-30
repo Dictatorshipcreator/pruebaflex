@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container, .flex-container1, .flex-container2, .flex-container3, .flex-container4 {
+  display: flex;
+  justify-content: center;
+  background-color: DodgerBlue;
+ div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}}
+.flex-container1{
+    justify-content: right;
+}
+.flex-container2{
+    justify-content: left;
+}
+.flex-container3{
+    justify-content: flex-start;
+}
+.flex-container4{
+    justify-content: flex-end;
+}
+
+</style>
+</head>
+<body>
+
+<h1>The justify-content Property</h1>
+
+<p>I took some fredoom for this exercise: </p>
+<p>I put all code posible together, because, see the suboptimal optimization of the code just experates me</p>
+<p>
+    .flex-container, .flex-container1, .flex-container2, .flex-container3, .flex-container4 {
+  display: flex;
+  justify-content: center;
+  background-color: DodgerBlue;
+ div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}}
+</p>
+<p>I create a class for each justify alignment (center, right, left, flex-start, and flex-end). 
+    with this code I differenciate each alignment (but center because is the default):</p>
+    <p>
+    .flex-container1{
+    justify-content: XXX;
+}</p>
+<br>
+<br>
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+<div class="flex-container1">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+<div class="flex-container2">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+<div class="flex-container3">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+<div class="flex-container4">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+
+</body>
+</html>
